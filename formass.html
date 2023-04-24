@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  form {
+    text-align: start;
+    width: 250px;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-right: 190px;
+    vertical-align: middle;
+    -moz-box-align: stretch
+  }
+</style>
+
+<body>
+  <!-- LEGEND AND FIELDSET-->
+  <form action="#" method="#">
+    <fieldset>
+      <legend>User Information</legend>
+      <div>
+        </style>
+        <label for="firstName">First Name</label>
+        <input type="text" id="FirstName" required>
+      </div> <br>
+      <div>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" required>
+      </div> <br>
+      <div>
+        <label for="street">Street</label>
+        <input type="text" id="street" required>
+      </div> <br>
+      <div>
+        <label for="city">City</label>
+        <input type="text" id="City" required>
+      </div> <br>
+    </fieldset><br><br>
+
+    <fieldset>
+      <legend>Additional Information</legend>
+      <div>
+        <label for="biography">Biography</label>
+        <textarea name="biography" id="Biography" maxlength="50" required></textarea>
+      </div> <br>
+      <p>
+        <label for="file">Image</label>
+        <input type="file" id="file"> <br>
+      </p>
+
+      <P>
+        <label for="age">Age Group</label>
+        <input type="number" id="age" min="0" max="9" placeholder="0-9 Years" step="1" required />
+      </P> <br>
+    </fieldset><br><br>
+
+    <fieldset>
+      <legend>Interests</legend>
+      <label for="hobbies">Hobbies</label>
+      <select name="hobbies" id="Hobbies">
+        <optgroup label="">
+          <option value="playing soccer">Playing soccer</option>
+          <option value="dancing">Dancing</option>
+          <option value="gardening">Gardening</option>
+          <option value="watching movies">Watching movies</option>
+        </optgroup>
+      </select>
+
+      <p>
+        <label for="favourite car">Favourite car?</label>
+        <select name="favourite car" id="Favourite car?" <optgroup label="">
+          <option value="volvo">Volvo</option>
+          <option value="bmw">BMW</option>
+          </optgroup>
+        </select>
+      </p>
+
+      <label for="favourite public transport">Favourite public transport?</label>
+      <select name="favourite public transport" id="Favourite Public Transport">
+        <optgroup label="Ground">
+          <option value="train">Train</option>
+          <option value="bus">Bus</option>
+          <option value="motorcycle">Motorcycle</option>
+        </optgroup>
+        <optgroup label="Water">
+          <option value="ship">Ship</option>
+          <option value="boat">Boat</option>
+        </optgroup>
+      </select>
+    </fieldset>
+</body>
+
+</html>
